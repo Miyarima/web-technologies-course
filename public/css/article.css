@@ -1,0 +1,69 @@
+.article_link {
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.article_link_p{
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.article_link:hover {
+    text-decoration: none;
+}
+
+.about_date {
+    font-size: smaller;
+    color: rgb(150, 150, 150);
+    font-style: italic;
+}
+
+.about a {
+    color: rgb(0, 0, 155);
+}
+
+.about a:hover {
+    text-decoration: none;
+}
+
+.article_btn {
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 1em 2em;
+    margin-bottom: 30px;
+}
+
+.article_btn:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+}
+
+.article_btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 0em;
+}
+
+.update_form {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+.textarea {
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 0.5em;
+    max-width: 450px;
+    max-height: 300px;
+}

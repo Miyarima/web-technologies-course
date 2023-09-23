@@ -1,0 +1,128 @@
+/**
+ * The stylesheet for this website.
+*/
+
+@import "init.css";
+@import "header.css";
+@import "navbar.css";
+@import "article.css";
+@import "object.css";
+@import "search.css";
+@import "login.css";
+@import "footer.css";
+
+ul, h1, h2,
+h3, h4 {
+    font-family:'Noto';
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html {
+    background: rgb(230, 230, 230);
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 1000px;
+    padding: 1em 3em;
+    background: rgb(250, 250, 250);
+    border-right: 1px solid rgb(200,200,200);
+    border-left: 1px solid rgb(200,200,200);
+}
+
+.page_title {
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.page_under_title {
+    text-decoration: underline;
+    margin: 0;
+}
+
+.page_intro {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.page_h2 {
+    text-align: center;
+    padding: 2em;
+}
+
+.page_intro {
+    font-size: large;
+    font-style:italic;
+    padding: 0 1em 0 1em;
+}
+
+.home_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin: 0 0 100px 0;
+}
+
+.article_container {
+    max-height: 250px;
+    display: flex;
+    margin-bottom: 3em;
+}
+
+
+.homepage_img {
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px black;
+}
+
+@media (max-width: 800px) {
+    .article_container {display: inline-block; text-align: center;}
+    .page_title {
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+}
+
+.article_content {
+    overflow: auto;
+    padding: 1em;
+    text-align: justify;
+}
+
+.article_content a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.article_content a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error_link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.error_link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}

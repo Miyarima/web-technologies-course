@@ -1,0 +1,21 @@
+.login_form{
+    max-width: 400px;
+    margin: 0 auto;
+    max-height: fit-content;
+}
+
+.wrong_login {
+    background-color: rgb(255, 255, 0);
+    padding: 1.5em 0em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.right_login {
+    background-color: rgb(0, 255, 0);
+    padding: 1.5em 0em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: larger;
+}
